@@ -4,14 +4,14 @@
  */
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
+<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+	<div class="entry-header">
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 
 		<div class="entry-meta">
 			<?php underscores_cascade_posted_on(); ?>
 		</div><!-- .entry-meta -->
-	</header><!-- .entry-header -->
+	</div><!-- .entry-header -->
 
 	<div class="entry-content">
 		<?php the_content(); ?>
@@ -23,7 +23,7 @@
 		?>
 	</div><!-- .entry-content -->
 
-	<footer class="entry-footer">
+	<div class="entry-footer">
 		<?php underscores_cascade_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
-</article><!-- #post-## -->
+	</div><!-- .entry-footer -->
+</div><!-- #post-## -->
