@@ -22,7 +22,20 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /*--------------------------------------------------------------
 # Cascade Framework
 --------------------------------------------------------------*/
-@import "cascade/development/build-full";
+@import "cascade/core";
+@import "cascade/typography";
+@import "cascade/tables";
+@import "cascade/colors";
+@import "cascade/modern";
+@import "cascade/helpers";
+@import "cascade/grids";
+@import "cascade/responsive";
+@import "cascade/mobile-grids";
+@import "cascade/tablet-grids";
+@import "cascade/phone-grids";
+@import "cascade/icons";
+@import "cascade/icons-ie7";
+@import "cascade/print";
 
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
